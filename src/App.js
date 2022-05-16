@@ -108,7 +108,7 @@ function Article() {
       <h2>This is Clubverse main page</h2>
       <p>This Website is founded by developerjm for the first prototype of Clubverse webpage.</p>
       <br />
-      <Button variant='contained' onClick={()=>{setOpen(true)} }>Enter</Button>
+      <Button variant='contained' onClick={()=>{setOpen(true)} }>내 성향 분석하기</Button>
       <Dialog open={open}>
         <DialogTitle>Confirmation</DialogTitle>
         <DialogContent>
